@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Event Finder
+Project created for the Java FSD Full Stack Phase 4
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- TABLE OF CONTENTS -->
+<br />
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#System Details">System details</a>
+    </li>
+    <li>
+      <a href="#advice">Advice</a>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project is created for the Java FSD Full Stack, phase 4, a course thaug by the academy [simplilearn.com](https://www.simplilearn.com/). In this phase we cover the frontend, javascript, CSS and react. The requisites of the webpage are the following:
 
-### `npm test`
+Build a React app where users can view and promote upcoming events.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- SYSTEM DETAILS -->
+## System Details
+You are a web developer at a company called FindMyMovies. The company has decided to launch a new app called FindMyEvents where users can view and add upcoming events in their region. bBackend development has been outsourced and frontend will be developed in-house. During sprint planning, you agree to lead this project and develop an app that will let users find events using APIs that backend engineers will provide. The tasks you are responsible for: 
 
-### `npm run build`
+    Building the application in React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Setting up a JSON server for testing until backend APIs are ready
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Managing the state using Redux
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You must use the following tools: 
 
-### `npm run eject`
+    React: To build the application
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Redux: To manage the state of components in the application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Redux Thunk: To manage the async flow
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    JSON Server: To build a placeholder backend for app development and testing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    React Router: To navigate within the app using URL links
 
-## Learn More
+    Bootstrap: To accelerate the development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Following requirements should be met:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    The app should be responsive.
 
-### Code Splitting
+    There should only be one source of truth for state management. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    The app should have functionalities for users to create, view, and delete events.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ 
 
-### Making a Progressive Web App
+<!-- ADVICE -->
+## Advice
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+As this project have only a educational prupouse.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- CONTACT -->
+## Contact
 
-### Deployment
+Francisco García Pozo - [@Linkedin](https://www.linkedin.com/in/francisco-garcia-pozo/) - franciscogarciapozo@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Project Link: [https://github.com/FranciscoGP-telco/onlinetest]
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
