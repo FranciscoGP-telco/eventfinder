@@ -1,5 +1,6 @@
 import { useDispatch } from 'react-redux'
 import { createEvent } from '../reducers/eventReducer'
+import { Form, Button } from 'react-bootstrap'
 
 const Create = () => {
     const dispatch = useDispatch()
@@ -21,13 +22,18 @@ const Create = () => {
     }
 
     return (
-        <form onSubmit={addEvent}>
-            <label>Event Name: </label><input name="name" /> <br/>
-            <label>Event Date: </label><input type="date" name="day" /> <br/>
-            <label>City of the Event: </label><input name="city" /> <br/>
-            <label>Address of the Event: </label><input name="address" /> <br/>
-            <button type="submit"> Add event</button>
-        </form>
+        <div>
+            <h2>Add an event</h2>
+            <Form onSubmit={addEvent}>
+                <Form.Group>
+                    <Form.Label>Event Name: </Form.Label><Form.Control name="name" /> <br/>
+                    <Form.Label>Event Date: </Form.Label><Form.Control type="date" name="day" /> <br/>
+                    <Form.Label>City of the Event: </Form.Label><Form.Control name="city" /> <br/>
+                    <Form.Label>Address of the Event: </Form.Label><Form.Control name="address" /> <br/>
+                    <Button variant="primary" type="submit"> Add event</Button>
+                </Form.Group>
+            </Form>
+        </div>
     )
 }
 

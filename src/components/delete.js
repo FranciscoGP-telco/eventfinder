@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux'
 import { deleteEvent } from "../reducers/eventReducer"
+import { Table, Button } from 'react-bootstrap'
 
 const Delete = () => {
     const dispatch = useDispatch()
@@ -17,15 +18,25 @@ const Delete = () => {
     return(
         <div>
         <h2>Click in the button to delete an event</h2>
-        {events.map(
-            event => 
-            <div>
-                <h3>{event.name}</h3>
-                <form>
-                    <button onClick={(e) => handleDelete(e, event.id)} >Delete event</button>
-                </form>
-            </div>   
-        )}
+        <Table striped bordered hover>
+                <thead>
+                    <th>Name</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody>
+                    {events.map(
+                        event => 
+                        <tr>
+                            <td>{event.name}</td>
+                            <td>
+                            <form>
+                                <Button variant="danger" onClick={(e) => handleDelete(e, event.id)} >Delete event</Button>
+                            </form>
+                            </td>
+                        </tr>   
+                    )}
+                </tbody>
+            </Table>
         </div>
     )
 }
