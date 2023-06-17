@@ -1,32 +1,32 @@
 {
-    "events" : [
-        {
-            "id" : 1,
-            "name" : "Premiere of John Wick 6: this time is personal",
-            "date" : "06/25/2023",
-            "city" : "Madrid",
-            "address" : "St. desengaño, 24"
-        },
-        {
-            "id" : 2,
-            "name" : "Pokemon films marathon",
-            "date" : "06/30/2023",
-            "city" : "Madrid",
-            "address" : "Gran via, 2"
-        },
-        {
-            "id" : 3,
-            "name" : "'Amanece que no es poco' re-release",
-            "date" : "06/22/2023",
-            "city" : "Toledo",
-            "address" : "St. Zocodover, 12"
-        },
-        {
-            "id" : 4,
-            "name" : "Kimetsu No Yaiba - Train arc",
-            "date" : "06/18/2023",
-            "city" : "Toledo",
-            "address" : "St. Barbara, 102"
-        }
-    ]
+  "events": [
+    {
+      "name": "Premiere of John Wick 6: this time is personal",
+      "date": "06/25/2023",
+      "city": "Madrid",
+      "address": "St. desengaño, 24",
+      "id": 1
+    },
+    {
+      "name": "Pokemon films marathon",
+      "date": "06/30/2023",
+      "city": "Madrid",
+      "address": "Gran via, 2",
+      "id": 2
+    },
+    {
+      "name": "'Amanece que no es poco' re-release",
+      "date": "06/22/2023",
+      "city": "Toledo",
+      "address": "St. Zocodover, 12",
+      "id": 3
+    },
+    {
+      "name": "Kimetsu No Yaiba - Train arc",
+      "date": "06/18/2023",
+      "city": "Toledo",
+      "address": "St. Barbara, 102",
+      "id": 4
+    }
+  ]
 }
