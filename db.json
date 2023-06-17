@@ -8,13 +8,6 @@
       "id": 1
     },
     {
-      "name": "Pokemon films marathon",
-      "date": "06/30/2023",
-      "city": "Madrid",
-      "address": "Gran via, 2",
-      "id": 2
-    },
-    {
       "name": "'Amanece que no es poco' re-release",
       "date": "06/22/2023",
       "city": "Toledo",
@@ -22,11 +15,11 @@
       "id": 3
     },
     {
-      "name": "Kimetsu No Yaiba - Train arc",
-      "date": "06/18/2023",
-      "city": "Toledo",
-      "address": "St. Barbara, 102",
-      "id": 4
+      "name": "One Piece Film Red",
+      "date": "2023-09-14",
+      "city": "Jaen",
+      "address": "St. Madrid, 123",
+      "id": 5
     }
   ]
 }
